@@ -1,0 +1,2 @@
+# -MuseHub-A-Comprehensive-Music-Analytics-and-Recommendation-Framework
+An Analytical Approach to Music Insights, Personalization, Visualization, and Recommendation Engin: focuses on exploring music data to uncover patterns in popularity, acoustic features, and artist trends. It integrates Python, SQL Server, and Power BI to deliver insights, visual dashboards, and personalized song recommendations.
