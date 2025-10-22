@@ -7,6 +7,8 @@ An Analytical Approach to Music Insights, Personalization, Visualization, and Re
 
 **Data Structure**
 
+
+```
 Data/
 ├── metadata/
 │   ├── songs/           # Song-level metadata (title, duration, atrist, type, etc.)
@@ -26,6 +28,7 @@ Data/
 └── features/
     ├── features/        # Audio features (tempo, energy, danceability, etc.)
     └── lyrics/          # Full song lyrics
+```
 
 ### Data Preprocess
 **Power Quary**
