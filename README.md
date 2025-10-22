@@ -7,23 +7,25 @@ An Analytical Approach to Music Insights, Personalization, Visualization, and Re
 
 **Data Structure**
 
-Data
-  |-------- metadata 
-  |            |-------- songs
-  |            |-------- albums
-  |            |-------- artists
-  |            |-------- releases
-  |            |-------- tracks
-  |-------- popularity
-  |            |-------- songs_pop
-  |            |-------- artists_pop
-  |            |-------- album_pop
-  |            |-------- songs_chart
-  |            |-------- artists_chart
-  |            |--------album_chart
-  |-------- features
-              |-------- features
-              |-------- lyrics
+Data/
+├── metadata/
+│   ├── songs/           # Song-level metadata (title, duration, atrist, type, etc.)
+│   ├── albums/          # Album-level details (name, release date, etc.)
+│   ├── artists/         # Artist profiles (name, genre, followers, etc.)
+│   ├── releases/        # Release events (album ID, dates, precision)
+│   └── tracks/          # Track-level metadata (song ID, album ID, track number)
+│
+├── popularity/
+│   ├── songs_pop/       # Song popularity scores
+│   ├── artists_pop/     # Artist popularity metrics
+│   ├── album_pop/       # Album popularity data
+│   ├── songs_chart/     # Song chart positions over time
+│   ├── artists_chart/   # Artist rankings across time
+│   └── album_chart/     # Album charting history
+│
+└── features/
+    ├── features/        # Audio features (tempo, energy, danceability, etc.)
+    └── lyrics/          # Full song lyrics
 
 ### Data Preprocess
 **Power Quary**
